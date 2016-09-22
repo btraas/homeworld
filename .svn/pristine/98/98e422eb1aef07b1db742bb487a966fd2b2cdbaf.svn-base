@@ -1,0 +1,14 @@
+#!/bin/sh
+
+if [ ! -d stuff ]; then
+    echo "please cd to Linux directory first"
+    exit 1
+fi
+
+mkdir -p ../m4
+cp stuff/configure.ac ../
+cp stuff/acinclude.m4 ../m4
+cp stuff/Makefile.am ../
+cd ..
+set -x
+autoreconf -i -f
