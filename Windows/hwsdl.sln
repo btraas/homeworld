@@ -1,26 +1,31 @@
-Microsoft Visual Studio Solution File, Format Version 8.00
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual C++ Express 2005
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hwsdl", "prj\hwsdl.vcproj", "{81CB51C4-B434-4E12-B69B-BAEE102F2852}"
-	ProjectSection(ProjectDependencies) = postProject
-	EndProjectSection
 EndProject
 Global
-	GlobalSection(SolutionConfiguration) = preSolution
-		Debug = Debug
-		Release (test) = Release (test)
-		release+symbols = release+symbols
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		old_dont use_1|Win32 = old_dont use_1|Win32
+		Release (test)|Win32 = Release (test)|Win32
+		release + symbols|Win32 = release + symbols|Win32
+		Release|Win32 = Release|Win32
+		release+symbols|Win32 = release+symbols|Win32
 	EndGlobalSection
-	GlobalSection(ProjectDependencies) = postSolution
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Debug|Win32.ActiveCfg = Debug|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Debug|Win32.Build.0 = Debug|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.old_dont use_1|Win32.ActiveCfg = old_dont use_1|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.old_dont use_1|Win32.Build.0 = old_dont use_1|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Release (test)|Win32.ActiveCfg = Release|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Release (test)|Win32.Build.0 = Release|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.release + symbols|Win32.ActiveCfg = release + symbols|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.release + symbols|Win32.Build.0 = release + symbols|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Release|Win32.ActiveCfg = Release|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Release|Win32.Build.0 = Release|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.release+symbols|Win32.ActiveCfg = release + symbols|Win32
+		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.release+symbols|Win32.Build.0 = release + symbols|Win32
 	EndGlobalSection
-	GlobalSection(ProjectConfiguration) = postSolution
-		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Debug.ActiveCfg = Debug|Win32
-		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Debug.Build.0 = Debug|Win32
-		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Release (test).ActiveCfg = Release|Win32
-		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.Release (test).Build.0 = Release|Win32
-		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.release+symbols.ActiveCfg = release + symbols|Win32
-		{81CB51C4-B434-4E12-B69B-BAEE102F2852}.release+symbols.Build.0 = release + symbols|Win32
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-	EndGlobalSection
-	GlobalSection(ExtensibilityAddIns) = postSolution
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
